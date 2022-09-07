@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  text-align: center;
+  /*aligning whole contents of the body to center*/
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+.top-container {
+  background-color: #f5f4ed;
+  position: relative;
+  /* relative:postioning from the default layout... postion set to relative,
+                        so the children is absolute(postion depend on the parent/body) to the parent*/
+  padding-top: 100px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+
+  font-size: 90px; /*or 1em=16px=100%  5.625 em or 562.5% usually if you declare font size in body(parent of h1) then body font size+given size( rem to avoid that (root em)) */
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 370px;
+}
+.profile {
+  padding: 30px 0;
+}
+.profile img {
+  width: 20%;
+
+}
+.coding {
+   width: 20%;
+   float: left; /*TO wrap the text to it*/
+   margin-right: 30px;
+   margin-top: 20PX;
+
+}
+.tea {
+  width: 20%;
+  float: right;
+  margin-left:30px;
+  padding-bottom: 40px;
+
+}
+
+p {
+  line-height: 2;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+
+
+
+}
+
+.Profile-description {
+  width: 30%;
+  margin: auto;
+}
+hr {
+border: dotted 8px #EAF6F6;
+border-bottom: none;
+width: 4%;
+margin: 100px auto;
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+
+  padding: 50px 0 20px;
+
+}
+.footer-link {
+  line-height: 2;
+  margin-left: 10px;
+}
+.footer-copy {
+  margin-top: 30px;
+  font-size: 0.75em;
+  color: #EAF6F6;
+  padding: 20px 0;
+}
+
+.btn {
+
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.contact-description {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
